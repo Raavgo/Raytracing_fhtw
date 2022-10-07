@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67bebf86-9539-4f7f-b9e9-a376519ec1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{954a8f61-1c3e-419b-baca-c5e2b83c689a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{09095d68-bcd7-45c4-b007-5c8ddb5d60a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{8b0cb0c9-e0d8-4107-91c8-11654fac88e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imported Headers">
+      <UniqueIdentifier>{c1171aa7-57b1-49f7-8007-17c6b9b91f11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSampleHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12HelloTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\_features.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\_fixes.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\_noise.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\_swizzle.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\_swizzle_func.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\_vectorize.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\associated_min_max.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\bit.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\bitfield.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\dxr\nv_helpers_dx12\BottomLevelASGenerator.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\closest_point.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\color_space.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\color_space.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\simd\common.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\common.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\common.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\compatibility.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\component_wise.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\constants.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\dual_quaternion.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\dxr\DXRHelper.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\epsilon.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\euler_angles.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\simd\exponential.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\exponential.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\ext.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\extend.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\extended_min_max.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\fast_exponential.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\fast_square_root.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\fast_trigonometry.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\func_common.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\func_exponential.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\func_geometric.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\func_integer.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\func_matrix.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\func_packing.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\func_trigonometric.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\func_vector_relational.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\functions.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\fwd.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\simd\geometric.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\geometric.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\glm.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\gradient_paint.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\hash.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\simd\integer.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\integer.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\integer.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\integer.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\intersect.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\io.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\log_base.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\dxr\nv_helpers_dx12\Manipulator.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\mat2x2.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\mat2x3.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\mat2x4.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\mat3x2.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\mat3x3.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\mat3x4.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\mat4x2.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\mat4x3.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\mat4x4.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\simd\matrix.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\matrix.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\matrix_access.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\matrix_cross_product.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\matrix_decompose.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\matrix_integer.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\matrix_interpolation.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\matrix_inverse.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\matrix_major_storage.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\matrix_operation.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\matrix_query.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\matrix_transform.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\matrix_transform_2d.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\mixed_product.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\noise.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\norm.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\normal.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\normalize_dot.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\number_precision.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\optimum_pow.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\orthonormalize.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\simd\packing.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\packing.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\packing.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\perpendicular.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\simd\platform.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\polar_coordinates.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\precision.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\projection.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\quaternion.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\quaternion.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\random.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\range.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\raw_data.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\dxr\nv_helpers_dx12\RaytracingPipelineGenerator.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\reciprocal.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\dxr\nv_helpers_dx12\RootSignatureGenerator.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\rotate_normalized_axis.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\rotate_vector.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\round.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\scalar_multiplication.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\scalar_relational.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\setup.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\dxr\nv_helpers_dx12\ShaderBindingTableGenerator.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\spline.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\std_based_type.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\string_cast.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\dxr\nv_helpers_dx12\TopLevelASGenerator.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\transform.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\transform2.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\simd\trigonometric.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\trigonometric.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\type_aligned.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\type_aligned.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_float.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_gentype.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_half.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_int.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_mat.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_mat2x2.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_mat2x3.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_mat2x4.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_mat3x2.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_mat3x3.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_mat3x4.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_mat4x2.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_mat4x3.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_mat4x4.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\type_precision.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\type_ptr.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\type_trait.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_vec.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_vec1.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_vec2.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_vec3.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\detail\type_vec4.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\ulp.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtc\vec1.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\vec2.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\vec3.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\vec4.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\vector_angle.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\vector_query.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\simd\vector_relational.h">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\vector_relational.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\glm\gtx\wrap.hpp">
+      <Filter>Imported Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12HelloTriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\dxr\nv_helpers_dx12\BottomLevelASGenerator.cpp">
+      <Filter>Imported Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\glm\detail\dummy.cpp">
+      <Filter>Imported Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\glm\detail\glm.cpp">
+      <Filter>Imported Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\dxr\nv_helpers_dx12\Manipulator.cpp">
+      <Filter>Imported Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\dxr\nv_helpers_dx12\RaytracingPipelineGenerator.cpp">
+      <Filter>Imported Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\dxr\nv_helpers_dx12\RootSignatureGenerator.cpp">
+      <Filter>Imported Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\dxr\nv_helpers_dx12\ShaderBindingTableGenerator.cpp">
+      <Filter>Imported Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\dxr\nv_helpers_dx12\TopLevelASGenerator.cpp">
+      <Filter>Imported Headers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="shaders.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="res\shaders\Hit.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="res\shaders\Common.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="res\shaders\Miss.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="res\shaders\ShadowRay.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="res\shaders\RayGen.hlsl">
+      <Filter>Assets\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vendor\glm\gtx\wrap.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\associated_min_max.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\bit.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\bitfield.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\closest_point.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\color_encoding.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\color_space.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\color_space.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\color_space_YCoCg.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\common.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\compatibility.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\component_wise.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\constants.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\dual_quaternion.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\epsilon.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\euler_angles.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\extend.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\extended_min_max.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\fast_exponential.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\fast_square_root.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\fast_trigonometry.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\float_notmalize.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_common.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_common_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_exponential.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_exponential_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_geometric.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_geometric_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_integer.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_integer_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_matrix.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_matrix_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_packing.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_packing_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_trigonometric.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_trigonometric_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_vector_relational.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\func_vector_relational_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\functions.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\gradient_paint.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\handed_coordinate_space.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\hash.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\integer.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\integer.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\intersect.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\io.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\log_base.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\matrix_access.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\matrix_cross_product.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\matrix_decompose.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\matrix_interpolation.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\matrix_inverse.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\matrix_major_storage.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\matrix_operation.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\matrix_query.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\matrix_transform.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\matrix_transform_2d.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\mixed_product.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\noise.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\norm.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\normal.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\normalize_dot.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\number_precision.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\optimum_pow.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\orthonormalize.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\packing.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\perpendicular.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\polar_coordinates.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\projection.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\quaternion.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\quaternion.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\quaternion_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\random.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\raw_data.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\reciprocal.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\rotate_normalized_axis.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\rotate_vector.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\round.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\scalar_relational.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\spline.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\std_based_type.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\string_cast.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\transform.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\transform2.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\type_aligned.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_gentype.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_half.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat2x2.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat2x3.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat2x4.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat3x2.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat3x3.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat3x4.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat4x2.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat4x3.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat4x4.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_mat4x4_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\type_precision.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\type_ptr.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\type_trait.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_vec.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_vec1.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_vec2.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_vec3.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_vec4.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\detail\type_vec4_simd.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\ulp.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtc\vec1.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\vector_angle.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+    <None Include="vendor\glm\gtx\vector_query.inl">
+      <Filter>Imported Headers</Filter>
+    </None>
+  </ItemGroup>
+</Project>
